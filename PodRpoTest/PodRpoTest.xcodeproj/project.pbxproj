@@ -14,6 +14,7 @@
 		C6A8131B1E7274EE00C643D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A8131A1E7274EE00C643D8 /* Assets.xcassets */; };
 		C6A8131E1E7274EE00C643D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A8131C1E7274EE00C643D8 /* LaunchScreen.storyboard */; };
 		C6A813271E72750E00C643D8 /* HYView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A813261E72750E00C643D8 /* HYView.m */; };
+		C6A8134E1E72AF3500C643D8 /* GGSS.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A8134D1E72AF3500C643D8 /* GGSS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C6A8131F1E7274EE00C643D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A813251E72750E00C643D8 /* HYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYView.h; sourceTree = "<group>"; };
 		C6A813261E72750E00C643D8 /* HYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYView.m; sourceTree = "<group>"; };
+		C6A8134C1E72AF3500C643D8 /* GGSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSS.h; sourceTree = "<group>"; };
+		C6A8134D1E72AF3500C643D8 /* GGSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 				C6A813121E7274EE00C643D8 /* AppDelegate.m */,
 				C6A813141E7274EE00C643D8 /* ViewController.h */,
 				C6A813151E7274EE00C643D8 /* ViewController.m */,
+				C6A8134B1E72AF2A00C643D8 /* RepoFile */,
 				C6A813251E72750E00C643D8 /* HYView.h */,
 				C6A813261E72750E00C643D8 /* HYView.m */,
 				C6A813171E7274EE00C643D8 /* Main.storyboard */,
@@ -82,6 +86,15 @@
 				C6A8130F1E7274EE00C643D8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A8134B1E72AF2A00C643D8 /* RepoFile */ = {
+			isa = PBXGroup;
+			children = (
+				C6A8134C1E72AF3500C643D8 /* GGSS.h */,
+				C6A8134D1E72AF3500C643D8 /* GGSS.m */,
+			);
+			path = RepoFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A8134E1E72AF3500C643D8 /* GGSS.m in Sources */,
 				C6A813161E7274EE00C643D8 /* ViewController.m in Sources */,
 				C6A813131E7274EE00C643D8 /* AppDelegate.m in Sources */,
 				C6A813101E7274EE00C643D8 /* main.m in Sources */,
@@ -313,6 +327,7 @@
 				C6A813241E7274EE00C643D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
