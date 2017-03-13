@@ -15,6 +15,7 @@
 		C6A8131E1E7274EE00C643D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A8131C1E7274EE00C643D8 /* LaunchScreen.storyboard */; };
 		C6A813271E72750E00C643D8 /* HYView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A813261E72750E00C643D8 /* HYView.m */; };
 		C6A8134E1E72AF3500C643D8 /* GGSS.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A8134D1E72AF3500C643D8 /* GGSS.m */; };
+		C6A813B21E7630E500C643D8 /* TTTT.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A813B11E7630E500C643D8 /* TTTT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C6A813261E72750E00C643D8 /* HYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYView.m; sourceTree = "<group>"; };
 		C6A8134C1E72AF3500C643D8 /* GGSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSS.h; sourceTree = "<group>"; };
 		C6A8134D1E72AF3500C643D8 /* GGSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSS.m; sourceTree = "<group>"; };
+		C6A813B01E7630E500C643D8 /* TTTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTT.h; sourceTree = "<group>"; };
+		C6A813B11E7630E500C643D8 /* TTTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTT.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 		C6A813021E7274EE00C643D8 = {
 			isa = PBXGroup;
 			children = (
+				C6A813AF1E7630DC00C643D8 /* Test */,
 				C6A8130D1E7274EE00C643D8 /* PodRpoTest */,
 				C6A8130C1E7274EE00C643D8 /* Products */,
 			);
@@ -95,6 +99,15 @@
 				C6A8134D1E72AF3500C643D8 /* GGSS.m */,
 			);
 			path = RepoFile;
+			sourceTree = "<group>";
+		};
+		C6A813AF1E7630DC00C643D8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C6A813B01E7630E500C643D8 /* TTTT.h */,
+				C6A813B11E7630E500C643D8 /* TTTT.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +184,7 @@
 				C6A8134E1E72AF3500C643D8 /* GGSS.m in Sources */,
 				C6A813161E7274EE00C643D8 /* ViewController.m in Sources */,
 				C6A813131E7274EE00C643D8 /* AppDelegate.m in Sources */,
+				C6A813B21E7630E500C643D8 /* TTTT.m in Sources */,
 				C6A813101E7274EE00C643D8 /* main.m in Sources */,
 				C6A813271E72750E00C643D8 /* HYView.m in Sources */,
 			);
